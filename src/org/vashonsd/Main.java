@@ -10,6 +10,18 @@ public class Main {
      * Then print out the performers.
      */
     public static void main(String[] args) {
+        System.out.println("From playlist to stage:");
 
+        Performer artist1 = new Performer("Pink Floyd", "Rock");
+        artist1.addHit("Wish you were here");
+        artist1.addHit("Money");
+        artist1.addHit("Comfortably Numb");
+        System.out.println(artist1);
+
+        Performer artist2 = new Performer("Smashing Pumpkins", "Alt Rock");
+        artist2.addHit("1979");
+        artist2.addHit("Today");
+        artist2.addHit("Rhinoceros");
+        System.out.println(artist2);
     }
 }
